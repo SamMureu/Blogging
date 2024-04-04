@@ -1,2 +1,6 @@
 # Blogging
-A laravel bloggig responsive web apllication
+A Laravel blogging responsive web application
+### Technology used
+.My SQL
+.Laravel 
+.
