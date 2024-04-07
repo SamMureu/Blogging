@@ -16,3 +16,5 @@ A Laravel blogging responsive web application 🧑‍💻
         -Authors name
         -Date &time it was created
         -Image (cover image) indicating the topic of the post (s)
+5. The user has a profile page where they can change their detail or also delete the account.
+   ![profile](https://github.com/SamMureu/Blogging/assets/84933401/4606357d-1bdb-48b5-b581-b7ffd8f3df80)
