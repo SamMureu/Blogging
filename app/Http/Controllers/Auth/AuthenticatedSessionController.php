@@ -41,7 +41,7 @@ class AuthenticatedSessionController extends Controller
             return redirect()->route('admin.dashboard')->with('success', 'Welcome, admin!');
          return 0;
         } elseif ($user->usertype === 'user') {
-            return redirect()->route('dashboard')->with('success', 'Welcome, user!');
+            return redirect()->route('home_page')->with('success', 'Welcome, user!');
         } else {
             Auth::logout(); // Log out the user
             return redirect()->back()->with('error', 'Invalid user type');

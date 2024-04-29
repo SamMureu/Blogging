@@ -13,4 +13,14 @@ class HomeController extends Controller
    {
     return view('admin_Dashboard');
    }
+   public function homepage(){
+      return view('home_page');
+   }
+
+   public function viewTasks()
+   {
+       $tasks = auth()->user()->tasks;
+       return view('usertask', compact('tasks'));
+   }
+
 }
