@@ -10,7 +10,8 @@
       <!-- Sidebar Navigation-->
      @include('homeadmin.adminsidebar')
       <!-- Sidebar Navigation end-->
-      
+    </div>
        @include('homeadmin.adminfooter')
+    
   </body>
 </html>

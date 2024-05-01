@@ -25,5 +25,10 @@ Route::get('admin.dashboard',[HomeController::class,'index'])->middleware(['auth
 Route::get('/task', [admincontroller::class,'taskForm'])->name('admintask.form');
 Route::post('/task', [admincontroller::class,'assignTask'])->name('admintask.assign');
 Route::get('/usertask', [Homecontroller::class,'viewTasks'])->name('task.view');
+Route::get('/adminpost',[adminController::class,'admin_post'])->name('adminpost');
+Route::post('/add_post',[admincontroller::class,'add_post'])->name('add_post');
 
+Route::get('/adminview',[admincontroller::class,'adminview'])->name('adminview');
+Route::get('/delete_post/{id}',[admincontroller::class,'delete_post']);
+Route::get('/update_post/{id}',[admincontroller::class,'update_post']);
 
